@@ -1,0 +1,41 @@
+body{
+    font-family:sans-serif;
+}
+
+button{
+    background-color: rgb(147, 174, 255);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.student{
+    background-color: rgb(231, 231, 231);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+form{
+    max-width: 400px;
+}
+
+label{
+    display: block;
+    margin: 15px 10px;
+}
+
+input{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
