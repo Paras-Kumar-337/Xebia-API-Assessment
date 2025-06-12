@@ -4,8 +4,11 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const Student = require('./Models/Student.js')
+const cors = require('cors')
 
 const app = express();
+
+app.use(cors());
 app.use(bodyParser.json());
 
 //Connection with MongoDB
